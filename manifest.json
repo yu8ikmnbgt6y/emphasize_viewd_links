@@ -1,0 +1,15 @@
+{
+  "name": "emphasize_viewed_links",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "description": "emphasize_viewed_links",
+  "icons": {
+    "16": "icons/evl_16x16.png",
+    "32": "icons/evl_32x32.png",
+    "48": "icons/evl_48x48.png",
+    "128": "icons/evl_128x128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}
