@@ -1,1 +1,1 @@
-# emphasize_viewd_links
+# emphasize_viewed_links

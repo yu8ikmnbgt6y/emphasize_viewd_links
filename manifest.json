@@ -9,7 +9,9 @@
     "48": "icons/evl_48x48.png",
     "128": "icons/evl_128x128.png"
   },
+  "permissions": ["storage"],
   "action": {
-    "default_popup": "popup/popup.html"
-  }
+    "default_icon": "icons/evl_16x16.png",
+    "default_popup": "popup.html"
+  }  
 }
