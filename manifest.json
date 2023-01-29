@@ -9,9 +9,26 @@
     "48": "icons/evl_48x48.png",
     "128": "icons/evl_128x128.png"
   },
-  "permissions": ["storage"],
+  "permissions": [
+    "storage", "tabs", "scripting", "history"
+  ],
   "action": {
     "default_icon": "icons/evl_16x16.png",
     "default_popup": "popup.html"
-  }  
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": [
+        "scss/content-style.css"
+      ],
+      "js": [
+        "content-script.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
 }
